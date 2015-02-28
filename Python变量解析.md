@@ -10,19 +10,20 @@
 3. 与C语言变量的比较：
 
 * C语言的变量在赋值后，其内存地址就不变了，也就是说，可以通过赋值修改其存的值。
+
 * Python变量中的"变"代表其内存地址的变化，而不是其值的变化。
 
 
 C程序：
 
 ```
-#include <stdio.h>
-int main(int argc, char * argv[]){
-	int x = 12,y = 13;
-	printf("x = %d x的地址为0x%p\n" ,x ,&x);
-	printf("y = %d y的地址为0x%p\n" ,y ,&y);
+	#include <stdio.h>
+	int main(int argc, char * argv[]){
+		int x = 12,y = 13;
+		printf("x = %d x的地址为0x%p\n" ,x ,&x);
+		printf("y = %d y的地址为0x%p\n" ,y ,&y);
 
-}
+	}
 
 ```
 
