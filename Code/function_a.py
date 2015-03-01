@@ -10,8 +10,8 @@ def pow_a(f1, f2):
 def subtract(f1, f2):
 	return f1 - f2
 
-#temp = add(15 ,20)
-#temp1 = pow_a(3, 4)
+# temp = add(15 ,20)
+# temp1 = pow_a(3, 4)
 
 # print '相加',temp
 # print '指数',temp1
@@ -22,6 +22,11 @@ def isadult():
 		print '你已成年。'
 	else:
 		print '你未成年。'
+
+'''
+自底向上
+的遍历
+'''
 
 def buttom_score():
 	count = int(raw_input("输入你的分数"))
