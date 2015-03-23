@@ -19,5 +19,7 @@ else:
 	print 'out readlines'
 print len(list3)
 
-for r in open('Python_loop.py', 'r').readlines():
-	open('temp.py', 'a+').write(r)
+print list3[10]
+
+#for r in open('Python_loop.py', 'r').readlines():
+#	open('temp.py', 'a+').write(r)
