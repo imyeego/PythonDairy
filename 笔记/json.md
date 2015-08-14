@@ -29,6 +29,10 @@ json.dumps()接受简单数据类型和结构性数据类型，返回str类型
 
 ```
 
+从json到python的类型转化
+
+![类型转化](http://images.cnblogs.com/cnblogs_com/coser/201112/201112141621146178.png)
+
 json.dumps提供了很多很好的参数可供选择，比较常用的有sort_keys(对dict对象排序)，separators,indent等。
 
 ##### json.dumps附加参数
