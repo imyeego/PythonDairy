@@ -29,6 +29,8 @@ json.dumps()接受简单数据类型和结构性数据类型，返回str类型
 
 ```
 
+![](http://img.hb.aicdn.com/c7001b26c7171b61df2d1df1e277e55b23a02a32406e-AtdAoU_fw658)
+
 从json到python的类型转化
 
 ![类型转化](http://images.cnblogs.com/cnblogs_com/coser/201112/201112141621146178.png)
@@ -49,6 +51,8 @@ json.dumps提供了很多很好的参数可供选择，比较常用的有sort_ke
 
 ```
 
+![](http://img.hb.aicdn.com/21f48dc3c4167ced1b946d5ef79ff074f948720c493b-nQxmmh_fw658)
+
 使用indent进行缩进，使得输出更加美观。
 
 ```
@@ -57,6 +61,8 @@ json.dumps提供了很多很好的参数可供选择，比较常用的有sort_ke
 	print d1
 
 ```
+
+![](http://img.hb.aicdn.com/8512146b5a8e418ae6756b5a3a32d2ce0b88926d3cec-clS8nL_fw658)
 
 使用separator参数对数据进行压缩，该参数传递一个元组，包含分割对象的字符串。
 
@@ -76,3 +82,5 @@ json.dumps提供了很多很好的参数可供选择，比较常用的有sort_ke
 	print decodejson
 
 ```
+
+![](http://img.hb.aicdn.com/6e397fad5425b42f41562c567b6824ab8965eca399df-ICHehw_fw658)
